@@ -21,11 +21,13 @@
         </div>
       </div>
       <div class="p-2 bd-highlight">
-        <p class="text-primary">Conexão</p>
+        <a class="text-primary" href="index.php?p=connection">Conexão</a>
       </div>
+      <?php if(isset($session->username)):?>
       <div class="p-2 bd-highlight">
-        <p class="text-primary">Deconexão</p>
+        <a class="text-primary" href="index.php?p=disconnection">Deconexão</a>
       </div>
+      <?php endif;?>
       <div class="p-2 bd-highlight">
         <span class="text-primary">(62)&nbsp;978-&nbsp;4561</span>
       </div>
@@ -72,47 +74,7 @@
       </div>
     </nav>
 
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../img/pexels-anna-nekrashevich-6801648.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../img/pexels-daniel-dan-7624066 (1).jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../img/pexels-anna-nekrashevich-6801648.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-    <div class="container-fluid">
+    <div>
         <?php echo $content; ?>
     </div>
 
