@@ -52,11 +52,15 @@ p, li {
 
 /* HEADER */
 
-.header {
-    
+.header  {
+    margin-bottom: 0px !important;
 }
 
-
+@media only screen and (max-width: 667px) {
+    .companie_name {
+        display: none;
+    }
+}
 /* SERVICES */
 
 .services_separation {
@@ -73,4 +77,4 @@ p, li {
       height: 10px;
       margin: 10px;
     }
-  }
+}

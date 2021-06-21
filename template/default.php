@@ -11,16 +11,35 @@
   </head>
 
   <body>
-  <br>
-  <div class="container-fluid">
-    <div class="header">
-      <img src="" alt="" srcset="">
+
+  <header class="bg-dark">
+    <div class="header d-flex bd-highlight ">
+      <div class="me-auto p-2 bd-highlight">
+        <div>
+          <img src="../img/logo.png" alt="" srcset=""  width="80" height="70" >
+          <span class="companie_name text-primary">Dinâmica Assessoria Contabil</span>
+        </div>
+      </div>
+      <div class="p-2 bd-highlight">
+        <p class="text-primary">Conexão</p>
+      </div>
+      <div class="p-2 bd-highlight">
+        <p class="text-primary">Deconexão</p>
+      </div>
+      <div class="p-2 bd-highlight">
+        <span class="text-primary">(62)&nbsp;978-&nbsp;4561</span>
+      </div>
+      <div class="p-2 bd-highlight">
+        <img src="../img/Logo_Fundo_azul.png" alt="" srcset=""  width="80" height="60" >
+      </div>
     </div>
-    <nav class="navbar navbar-light bg-white border border-dark navbar-expand-md">
+  </header>
+
+    <nav class="navbar navbar-light bg-white border-bottom border-dark navbar-expand-md">
       <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <!-- <a class="navbar-brand" href="#">
       <img src="../../assessoria/img/logo_d.png" alt="" width="50" height="40" class="d-inline-block align-text-top">
-        </a>
+        </a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,15 +71,9 @@
             </li>
             <?php endif;?>
             </ul>
-            <div class="float-right">
-              <a class="nav-link" href="index.php?p=disconnection">
-              <img src="../../assessoria/img/Logo_Fundo_azul.png" alt="" width="80" height="60" class="d-inline-block align-text-top">
-              </a>
-            </div>
         </div>
       </div>
     </nav>
-  </div>
 
   <br>
   <br>
