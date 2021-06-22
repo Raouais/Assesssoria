@@ -10,7 +10,7 @@ body {
     background-color: rgb(115, 192, 255);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2{
     font-weight: bold;
 }
 
@@ -108,7 +108,7 @@ p, li {
 
 .parallax {
     /* Image a utiliser */
-    background-image: url("../../img/pieces_bg_sunscreen.jpg");
+    background-image: url("../../img/reais_dark.jpg");
 
     width: 100%;
     
@@ -151,7 +151,8 @@ p, li {
 }
 
 .parallax ul li {
-    color: #5f8a83;
+    /* color: #5f8a83; */
+    color: #2c2c2c;
     font-size: 25px;
     text-align: center;
     box-sizing: border-box;
@@ -187,4 +188,30 @@ p, li {
 
 #certificate {
     padding: 0 !important;
+}
+
+.certificate_logo {
+    width: 100%;
+    background-image: url("../../img/Logo_Fundo_Branco_dark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+
+
+.certificate_benefits ul {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.certificate_benefits ul li {
+    font-size: 30px;
 }

@@ -70,16 +70,43 @@
 </section>
 
 <section id="certificate" class="bg-dark">
-    <h2 class="text-center text-dark"> <u>Certificado</u> </h2>
-    <div>
-        <div class="row shadow">
-            <div class="col-md-8 rounded-left">
-                <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" srcset=""  class="img-fluid">
-            </div>
-            <div class="col-md-4 bg-primary rounded-right">
-                <h3 class=" text-light text-center">Certificado digital </h3>
-                <p class="text-light">Pessoa juridica</p>
-                <p class="text-light">Pessoa fisica</p>
+    <div class="certificate_logo">
+        <h2 class="text-center text-primary"> Certificado Digital </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="certificate_benefits">
+                        <ul>
+                            <li>
+                               <h3>
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   Compre online, sem sair de casa
+                                </h3>
+                            </li>
+                            <li>
+                               <h3>
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   Compre online, sem sair de casa
+                                </h3>
+                            </li>
+                            <li>
+                               <h3>
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   Compre online, sem sair de casa
+                                </h3>
+                            </li>
+                            <li>
+                               <h3>
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   Compre online, sem sair de casa
+                                </h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="glyphicon glyphicon-phone"> (62) 99276-9989</p>
+                </div>
             </div>
         </div>
     </div>
