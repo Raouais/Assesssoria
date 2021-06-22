@@ -88,3 +88,36 @@ p, li {
       margin: 10px;
     }
 }
+
+/* COMPANIES */
+
+#companies {
+    padding: 0 !important;
+}
+
+/** Parallax **/
+.parallax {
+    /* Image a utiliser */
+    background-image: url("../../img/pexels-stanislav-kondratiev-2909101.jpg");
+
+    width: 100%;
+
+    min-height: 300px;
+
+    /* Centrer la photo au milieu de la page*/
+    margin: 0 auto;
+
+    /**** Creation de l'effet parallax  ******/
+
+    /* Il faut fixer la photo sur un seul point */
+    background-attachment: fixed;
+
+    /* Centrer la photo pour ajuster la variation de taille */
+    background-position: center;
+
+    /* Ne pas permettre que la photo se répète */
+    background-repeat: no-repeat;
+    
+    /* Centraliser la photo sur le fond */
+    background-size: cover;
+}

@@ -41,3 +41,4 @@ if($p === 'home'){
 
 $content = ob_get_clean();
 require '../template/default.php';
+
