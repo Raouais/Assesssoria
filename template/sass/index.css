@@ -72,6 +72,7 @@ p, li {
     padding: 0px !important;
 }
 
+
 @media only screen and (max-width: 667px) {
     .companie_name {
         display: none;
@@ -82,7 +83,7 @@ p, li {
 .services_separation {
     border: 5px solid black;
     width: 10px;
-    background-color: black;
+    border: 5px solid #46b2cd;
     height: 100%;
     border-radius: 10px;
 }
@@ -97,17 +98,20 @@ p, li {
 
 /* COMPANIES */
 
+.companie_name {
+    font-size: 25px;
+}
+
 #companies {
     padding: 0 !important;
 }
 
-/** Parallax **/
 .parallax {
     /* Image a utiliser */
-    background-image: url("../../img/pexels-pratikxox-3222685.jpg");
+    background-image: url("../../img/pieces_bg_sunscreen.jpg");
 
     width: 100%;
-
+    
     min-height: 300px;
 
     /* Centrer la photo au milieu de la page*/
@@ -147,10 +151,13 @@ p, li {
 }
 
 .parallax ul li {
+    color: #5f8a83;
+    font-size: 25px;
     text-align: center;
     box-sizing: border-box;
+    font-weight: bold;
     flex-grow: 1;
-    width: 100%; 
+    width: 100%;
     padding: 0.8em 1.2em;
     overflow: hidden;
     list-style: none;
@@ -158,14 +165,26 @@ p, li {
     background: fade(slategrey,20%);
 }
 
+
 .parallax ul > li  { width: 15%; }
+
+@media only screen and (max-width: 650px) {
+    .parallax ul > li  { width: 100%; }
+}
 
 .parallax .title {
     padding-top: 30px !important;
     margin: 0 !important;
     font-family: "NewsReader", "sans-serif";
     text-align: center;
+    filter: drop-shadow(2px 4px 6px black);
     font-size: 45px;
-    font-weight: bold;
     color: white;
+}
+
+
+/*CERTIFICATE*/
+
+#certificate {
+    padding: 0 !important;
 }
