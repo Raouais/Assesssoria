@@ -71,7 +71,21 @@
 
 
 <section id="companies">
-    <div class="parallax"></div>
+    <div class="parallax">
+        <p class="title">Eles <u class="text-primary">confiam</u> em nós
+para a gestão de suas contas</p>
+        <ul>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+            <li>UNIRODAS</li>
+        </ul>
+    </div>
 </section>
 
 

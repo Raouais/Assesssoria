@@ -1,6 +1,12 @@
 /* GENERAL */
+
+@font-face {
+    font-family: "NewsReader";
+    src: url("../../Fonts/Newsreader-VariableFont_opsz\,wght.ttf");
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "NewsReader", 'Courier New', Courier, monospace !important;
     background-color: rgb(115, 192, 255);
 }
 
@@ -98,7 +104,7 @@ p, li {
 /** Parallax **/
 .parallax {
     /* Image a utiliser */
-    background-image: url("../../img/pexels-stanislav-kondratiev-2909101.jpg");
+    background-image: url("../../img/pexels-pratikxox-3222685.jpg");
 
     width: 100%;
 
@@ -120,4 +126,46 @@ p, li {
     
     /* Centraliser la photo sur le fond */
     background-size: cover;
+}
+
+@font-face {
+    font-family: "FjallaOne";
+    src: url("../../Fonts/FjallaOne-Regular.ttf");
+}
+
+
+.parallax ul {
+    font-family: "FjallaOne", "sans-serif";
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center; 
+    width: 100%;
+    min-height: 300px;
+    padding: 16px !important;
+}
+
+.parallax ul li {
+    text-align: center;
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%; 
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    /* border: solid 1px white; */
+    background: fade(slategrey,20%);
+}
+
+.parallax ul > li  { width: 15%; }
+
+.parallax .title {
+    padding-top: 30px !important;
+    margin: 0 !important;
+    font-family: "NewsReader", "sans-serif";
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
 }
