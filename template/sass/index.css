@@ -10,8 +10,16 @@ body {
     background-color: rgb(115, 192, 255);
 }
 
-h2{
-    font-weight: bold;
+.white_divider
+{
+    width:100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 25px 25px !important;
 }
 
 a {
@@ -148,6 +156,7 @@ p, li {
     width: 100%;
     min-height: 300px;
     padding: 16px !important;
+    margin: 0 !important;
 }
 
 .parallax ul li {
@@ -187,7 +196,8 @@ p, li {
 /*CERTIFICATE*/
 
 #certificate {
-    padding: 0 !important;
+    padding-top: 45px 0 45 0 !important;
+    background-color: #333333;
 }
 
 .certificate_logo {
@@ -200,7 +210,15 @@ p, li {
     margin: 0 auto;
 }
 
-
+.certificate_contact {
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
 .certificate_benefits ul {
     display: flex;

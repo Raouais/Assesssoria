@@ -47,7 +47,8 @@
 </section>
 
 <section id="services" class="bg-dark">
-    <h2 class="text-center text-primary"> Serviços </h2>
+    <div class="white_divider"></div>
+    <h1 class="text-center text-primary"> Serviços </h1>
     <div class="container">
         <div class="row" style="margin-top: 20px;">
             <div class="col-md-5 bg-dark shadow  rounded">
@@ -69,9 +70,10 @@
     </div>
 </section>
 
-<section id="certificate" class="bg-dark">
+<section id="certificate">
     <div class="certificate_logo">
-        <h2 class="text-center text-primary"> Certificado Digital </h2>
+        <div class="white_divider"></div>
+        <h1 class="text-center text-primary"> Certificado Digital </h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -79,25 +81,25 @@
                         <ul>
                             <li>
                                <h3>
-                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
                                    Compre online, sem sair de casa
                                 </h3>
                             </li>
                             <li>
                                <h3>
-                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
                                    Compre online, sem sair de casa
                                 </h3>
                             </li>
                             <li>
                                <h3>
-                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
                                    Compre online, sem sair de casa
                                 </h3>
                             </li>
                             <li>
                                <h3>
-                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="70" height="60">
+                                   <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
                                    Compre online, sem sair de casa
                                 </h3>
                             </li>
@@ -105,7 +107,16 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <p class="glyphicon glyphicon-phone"> (62) 99276-9989</p>
+                    <div class="certificate_contact">
+                        <h3>
+                            <img src="../img/whatsApp_prev_ui.png" alt="" width="50" height="50">
+                            (62) 99276-99
+                        </h3>
+                        <h3>
+                            <img src="../img/arobase_blue.png" alt="" width="50" height="50">
+                            dinamicacontabildg@hotmail.com
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
