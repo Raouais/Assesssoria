@@ -51,7 +51,7 @@
               <a class="nav-link active" aria-current="page" href="index.php?p=home">Inicial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?p=disconnection">Sobre nos</a>
+              <a class="nav-link" href="index.php?p=about">Sobre nos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?p=connection">Contatos</a>
@@ -78,21 +78,43 @@
         <?php echo $content; ?>
     </div>
 
+    <footer class="container-fluid footer bg-secondary">
 
-    <footer class="container-fluid footer bg-dark ">
+      <div class="row text-light text-center bg-dark footer_paragraph">
+        
+        <div class="col-md-4 ">
+          <p>
+              <img src="../img/map_point_prev_ui.png" alt="" srcset=""  width="25" height="25">
+              <span>Endereço</span> 
+          </p>
+        </div>
+        
+        <div class="col-md-4">
+          <p>
+              <img src="../img/phone_prev_ui.png" alt="" srcset=""  width="25" height="25">
+              <span>Endereço</span> 
+          </p>
+          <p>
+              <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" srcset=""  width="25" height="25">
+              <span>Endereço</span> 
+          </p>
+        </div>
+      
+        <div class="col-md-4">
+          <p>
+            <a href="http://" class="text-primary">
+              <img src="../img/linkedin.png" alt="" srcset=""  width="25" height="25">
+              <span>Follow us in Linkedin</span> 
+            </a>
+          </p>
+        </div>
 
-    <div class="row text-light">
-      <div class="col-md-4 ">
-        <p>Logo: </p>
-        <p>Telefone: </p>
-        <p>Endereço: </p>
       </div>
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-        <p>&copy Dinâmica Assessoria Contabil</p>
-      </div>
 
-    </div>
+      <div class="text-center bg-secondary">
+        <img src="../img/logo.png" alt="" srcset=""  width="80" height="70" >
+        <div class="companie_name text-primary">&copy Dinâmica Assessoria Contabil</div>
+      </div>
 
     </footer>
 

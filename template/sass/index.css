@@ -10,11 +10,17 @@ body {
     background-color: rgb(115, 192, 255);
 }
 
-.white_divider
-{
+.white_divider {
     width:100px;
     height: 2px;
     background: #fff;
+    margin: 0 auto;
+}
+
+.primary_divider {
+    width:100px;
+    height: 2px;
+    background: #96e7e3;
     margin: 0 auto;
 }
 
@@ -48,11 +54,11 @@ section .heading h2{
     text-transform: uppercase;
 }
 
-p, li {
+/* p, li {
     font-weight: normal;
     font-size: 15px;
     color: #effbff;
-}
+} */
 #circle {
     background: radial-gradient(circle, rgb(245 245 245 / 62%) 0%, rgb(96 220 215) 100%);
     border-radius: 50%;
@@ -229,7 +235,55 @@ p, li {
     justify-content: center;
 }
 
-
 .certificate_benefits ul li {
     font-size: 30px;
+}
+
+/*ABOUT*/
+
+#about {
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+#about .summary h1 {
+    margin: 0 auto !important;
+}
+
+#about .values {
+    padding-top: 45px;
+}
+
+#about .values .wall {
+    background-image: url("../../img/wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+#about .values .wall ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#about .values .wall ul li{
+    font-size: 25px;
+    color: white;
+}
+
+#about .crew {
+    padding-top: 45px;
+}
+/*FOOTER*/
+
+.footer_paragraph {
+    padding-top: 45px !important;
+}
+
+.footer_paragraph p {
+    font-size: 25px !important;
 }
