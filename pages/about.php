@@ -39,6 +39,7 @@
     </div>
     
     <div class="crew">
+        
         <div class="row">
             <div class="primary_divider"></div>
             <h1 class="text-center text-dark">Nossa Equipe</h1>
@@ -70,6 +71,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
 </section>

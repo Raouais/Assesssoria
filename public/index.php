@@ -31,6 +31,8 @@ if($p === 'home'){
     require '../pages/disconnection.php';
 } else if($p === 'about'){
     require '../pages/about.php';
+} else if($p === 'contact'){
+    require '../pages/contact.php';
 } else if($p === 'edit_category'){
     require '../pages/admin/edit_category.php';
 } else if($p === 'edit_services'){
