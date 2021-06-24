@@ -94,6 +94,11 @@ section .heading h2{
 }
 /* SERVICES */
 
+#services ul li {
+    color: #fff;
+    font-size: 20px;
+}
+
 .services_separation {
     border: 5px solid black;
     width: 10px;
@@ -237,6 +242,7 @@ section .heading h2{
 
 .certificate_benefits ul li {
     font-size: 30px;
+    color: #fff;
 }
 
 /*ABOUT*/
@@ -250,8 +256,12 @@ section .heading h2{
     margin: 0 auto !important;
 }
 
+@media only screen and (max-width: 767px) {
+    #about .summary img {display: none;}
+}
+
 #about .values {
-    padding-top: 45px;
+    padding-top: 0;
 }
 
 #about .values .wall {
@@ -276,7 +286,7 @@ section .heading h2{
 }
 
 #about .crew {
-    padding-top: 45px;
+    padding-top: 0px;
 }
 
 /*CONTACT*/
