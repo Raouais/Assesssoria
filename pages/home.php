@@ -49,23 +49,42 @@
 <section id="services" class="bg-dark">
     <div class="white_divider"></div>
     <h1 class="text-center text-primary"> Serviços </h1>
+
+    <?php
+        $dao->setTable("category");
+        $categories = $dao->all();
+        $dao->setTable("services");
+        $count = 1;
+    ?>
+
     <div class="container">
         <div class="row" style="margin-top: 20px;">
+        <?php foreach($categories as $c):?>
             <div class="col-md-5 bg-dark shadow  rounded">
-                <h3 class=" text-light  text-center"> Serviços</h3>
+                <h3 class=" text-light  text-center"> <?= $c->name; ?></h3>
                 <ul>
-                    <li>Nota fiscal</li>
-                    <li>Pesquisa</li>
+                <?php
+                    $services = $dao->findAll($c->id,"category_id"); 
+                    foreach($services as $s):
+                ?>
+                    <li class="row">
+                        <div class="col-md-6">
+                            <?= $s->name;?> 
+                        </div>
+                        <div class="col-md-6">
+                            <?php if(isset($session->username)):?>
+                                <a class="btn btn-primary" href="index.php?p=edit_services&id=<?=$s->id;?>">Editar</a>
+                                <a class="btn btn-danger" href="index.php?p=del_services&id=<?=$s->id;?>">Suprimir</a> 
+                            <?php endif;?>
+                        </div>
+                    </li>
+                <?php endforeach;?>
                 </ul>
             </div>
-            <div class="col-md-2 d-flex justify-content-center "><div class="services_separation "></div></div>
-            <div class="col-md-5 bg-dark shadow  rounded">
-                <h3 class=" text-light text-center"> Serviços</h3>
-                <ul>
-                    <li>Abertura MEI</li>
-                    <li>Rescisão</li>
-                </ul>
-            </div>
+            <?php $count++; if($count % 2 === 0):?> 
+                <div class="col-md-2 d-flex justify-content-center "><div class="services_separation "></div></div>
+            <?php endif;?>
+            <?php endforeach;?>
         </div>
     </div>
 </section>

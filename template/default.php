@@ -58,14 +58,14 @@
             </li>
             <?php if(isset($session->username)):?>
               <li class="nav-item">
-                <a class="nav-link" href="index.php?p=disconnection">Editar Serviços</a>
+                <a class="nav-link" href="index.php?p=edit_services">Editar Serviços</a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?p=edit_category">Editar Categorias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?p=reset_password">
-                <button class="btn btn-primary">Alterar palavra chave</button>
+                <button class="btn btn-primary">Alterar senha</button>
               </a>
             </li>
             <?php endif;?>

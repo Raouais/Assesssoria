@@ -50,10 +50,12 @@
     <div class="container crew">
         
         <div class="primary_divider"></div>
-        <div class="row">
-            <h1 class="text-center text-dark">Nossa Equipe</h1>
+        <h1 class="text-center text-dark">Nossa Equipe</h1>
+
+        <div class="row g-3">
+
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
                         <h5 class="card-title">Gerente Contabil</h5>
@@ -61,8 +63,9 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
                         <h5 class="card-title">Gerente Contabil</h5>
@@ -70,8 +73,9 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
                         <h5 class="card-title">Gerente Contabil</h5>
@@ -79,6 +83,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
