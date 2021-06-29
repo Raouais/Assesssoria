@@ -1,8 +1,8 @@
 <?php
 
-// if(!isset($session->username) && empty($_GET['id'])) {
-// 	header("Location: index.php");
-// }
+if(!isset($session->username) && empty($_GET['id'])) {
+	header("Location: index.php");
+}
 
 $array =  array("current_pwd" => "","new_pwd" => "","confirm_pwd" => "", "success" => "");
 $isSucces = true;

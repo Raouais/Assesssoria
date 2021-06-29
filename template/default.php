@@ -16,8 +16,10 @@
     <div class="header d-flex bd-highlight ">
       <div class="me-auto p-2 bd-highlight">
         <div>
+        <a href="index.php?p=home">
           <img src="../img/logo.png" alt="" srcset=""  width="80" height="70" >
           <span class="companie_name text-primary">Dinâmica Assessoria Contabil</span>
+        </a>
         </div>
       </div>
       <div class="p-2 bd-highlight">
@@ -57,12 +59,6 @@
               <a class="nav-link" href="index.php?p=contact">Contatos</a>
             </li>
             <?php if(isset($session->username)):?>
-              <li class="nav-item">
-                <a class="nav-link" href="index.php?p=edit_services">Editar Serviços</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php?p=edit_category">Editar Categorias</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?p=reset_password">
                 <button class="btn btn-primary">Alterar senha</button>

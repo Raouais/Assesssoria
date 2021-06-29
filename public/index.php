@@ -33,13 +33,15 @@ if($p === 'home'){
     require '../pages/about.php';
 } else if($p === 'contact'){
     require '../pages/contact.php';
-} else if($p === 'edit_category'){
-    require '../pages/admin/edit_category.php';
-} else if($p === 'edit_services'){
-    require '../pages/admin/edit_services.php';
+} else if($p === 'add_service'){
+    require '../pages/admin/add_service.php';
+} else if($p === 'edit_service'){
+    require '../pages/admin/edit_service.php';
+} else if($p === 'del_service'){
+    require '../pages/admin/del_service.php';
 } else if($p === 'reset_password'){
     require '../pages/admin/reset_password.php';
-}
+} 
 
 $content = ob_get_clean();
 require '../template/default.php';

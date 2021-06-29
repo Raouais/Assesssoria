@@ -48,7 +48,12 @@
 
 <section id="services" class="bg-dark">
     <div class="white_divider"></div>
-    <h1 class="text-center text-primary"> Serviços </h1>
+    <h1 class="text-center text-primary"> Serviços 
+
+    <?php if(isset($session->username)):?>
+        <a class="btn btn-primary" href="index.php?p=add_service">Adicionar</a>
+    <?php endif;?>
+    </h1>
 
     <?php
         $dao->setTable("category");
@@ -73,8 +78,8 @@
                         </div>
                         <div class="col-md-6">
                             <?php if(isset($session->username)):?>
-                                <a class="btn btn-primary" href="index.php?p=edit_services&id=<?=$s->id;?>">Editar</a>
-                                <a class="btn btn-danger" href="index.php?p=del_services&id=<?=$s->id;?>">Suprimir</a> 
+                                <a class="btn btn-primary" href="index.php?p=edit_service&id=<?=$s->id;?>">Editar</a>
+                                <a class="btn btn-danger" href="index.php?p=del_service&id=<?=$s->id;?>">Suprimir</a> 
                             <?php endif;?>
                         </div>
                     </li>
