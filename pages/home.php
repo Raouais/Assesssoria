@@ -15,23 +15,20 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
         <img src="../img/pexels-anna-nekrashevich-6801648.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+        <div class="centered text-center text-bold">
+            <h1>ADMINISTRACÃO FINACEIRA</h1>
         </div>
         </div>
         <div class="carousel-item">
         <img src="../img/pexels-daniel-dan-7624066 (1).jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+        <div class="centered text-center">
+            <h1>ASSESSORIA CONTABIL</h1>
         </div>
         </div>
         <div class="carousel-item">
         <img src="../img/pexels-anna-nekrashevich-6801648.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+        <div class="centered text-center">
+            <h1>ASSESSORIA FISCAL</h1>
         </div>
         </div>
     </div>
@@ -72,16 +69,12 @@
                     $services = $dao->findAll($c->id,"category_id"); 
                     foreach($services as $s):
                 ?>
-                    <li class="row">
-                        <div class="col-md-6">
+                    <li >
                             <?= $s->name;?> 
-                        </div>
-                        <div class="col-md-6">
                             <?php if(isset($session->username)):?>
                                 <a class="btn btn-primary" href="index.php?p=edit_service&id=<?=$s->id;?>">Editar</a>
                                 <a class="btn btn-danger" href="index.php?p=del_service&id=<?=$s->id;?>">Suprimir</a> 
                             <?php endif;?>
-                        </div>
                     </li>
                 <?php endforeach;?>
                 </ul>
@@ -112,19 +105,19 @@
                             <li>
                                <h3>
                                    <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
-                                   Compre online, sem sair de casa
+                                   O melhor preço
                                 </h3>
                             </li>
                             <li>
                                <h3>
                                    <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
-                                   Compre online, sem sair de casa
+                                   Rapidez na emissão
                                 </h3>
                             </li>
                             <li>
                                <h3>
                                    <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" width="50" height="40">
-                                   Compre online, sem sair de casa
+                                   Nos vamos até você
                                 </h3>
                             </li>
                         </ul>
@@ -134,11 +127,11 @@
                     <div class="certificate_contact">
                         <h3>
                             <img src="../img/whatsApp_prev_ui.png" alt="" width="50" height="50">
-                            (62) 99276-99
+                            <a href="https://wa.me/005562992769989">(62) 99276-9989</a> 
                         </h3>
                         <h3>
                             <img src="../img/arobase_blue.png" alt="" width="50" height="50">
-                            dinamicacontabildg@hotmail.com
+                            <a href = "mailto: dinamicacontabildg@hotmail.com">dinamicacontabildg@hotmail.com</a>
                         </h3>
                     </div>
                 </div>
@@ -153,14 +146,15 @@
 para a gestão de suas contas</p>
         <ul>
             <li>UNIRODAS</li>
-            <li>GOIAS PEDRA</li>
+            <li>GOIAS PEDRAS</li>
             <li>NEW RODAS</li>
             <li>SPORT LIFE</li>
+            <li>NEW YORK</li>
+            <li>CYCLONE EMBALAGEMS</li>
+            <li>SPORT LIFE</li>
             <li>MOTOCICLO</li>
-            <li>MOTOCICLO</li>
-            <li>MOTOCICLO</li>
-            <li>MOTOCICLO</li>
-            <li>MOTOCICLO</li>
+            <li>FAM TRANSPORTES</li>
+            <li>TITANIUM PRO ACADEMIA</li>
         </ul>
     </div>
 </section>

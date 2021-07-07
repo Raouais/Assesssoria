@@ -14,13 +14,13 @@
 
   <header class="bg-dark">
     <div class="header d-flex bd-highlight ">
-      <div class="me-auto p-2 bd-highlight">
-        <div>
+      <div class="me-auto bd-highlight">
         <a href="index.php?p=home">
           <img src="../img/logo.png" alt="" srcset=""  width="80" height="70" >
+        </a>
+        <a class="text-center" href="index.php?=home">
           <span class="companie_name text-primary">Dinâmica Assessoria Contabil</span>
         </a>
-        </div>
       </div>
       <div class="p-2 bd-highlight">
         <a class="text-primary" href="index.php?p=connection">Conexão</a>
@@ -81,18 +81,18 @@
         <div class="col-md-4 ">
           <p>
               <img src="../img/map_point_prev_ui.png" alt="" srcset=""  width="25" height="25">
-              <span>Endereço</span> 
+              <span>194 - Jardim Novo Mundo, Goiânia - GO</span> 
           </p>
         </div>
         
         <div class="col-md-4">
           <p>
               <img src="../img/phone_prev_ui.png" alt="" srcset=""  width="25" height="25">
-              <span>Endereço</span> 
+              <span>(62) 99276-9989</span> 
           </p>
           <p>
               <img src="../img/Logo_Fundo_Branco2_prev_ui.png" alt="" srcset=""  width="25" height="25">
-              <span>Endereço</span> 
+              <span>(62) 99276-99</span> 
           </p>
         </div>
       

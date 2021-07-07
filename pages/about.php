@@ -37,11 +37,11 @@
                 </li>
                 <li>
                     <img src="../img/sceau_cire.png" alt="" srcset="" width="50" height="50">
-                    Guiamos nossos clientes a fazer as melhores escolhas financeiras.
+                    Nos colocamos nossos clientes ao centro de nossas preocupações.
                 </li>
                 <li>
                     <img src="../img/sceau_cire.png" alt="" srcset="" width="50" height="50">
-                    Guiamos nossos clientes a fazer as melhores escolhas financeiras.
+                    Garantimos um serviço de excelencia. 
                 </li>
             </ul>
         </div>
@@ -52,9 +52,19 @@
         <div class="primary_divider"></div>
         <h1 class="text-center text-dark">Nossa Equipe</h1>
 
-        <div class="row g-3">
+        <div class="row g-4">
 
-            <div class="col-md-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../img/paulo.jpg" class="card-img-top" alt="gerente contabil">
+                    <div class="card-body">
+                        <h5 class="card-title">Contador e agente de registro e certificacoes</h5>
+                        <p class="card-text">Casado e pai de um filho.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
                 <div class="card">
                     <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
@@ -64,22 +74,22 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
-                    <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
+                    <img src="../img/elke.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
-                        <h5 class="card-title">Gerente Contabil</h5>
-                        <p class="card-text">Casado e pai de dois filhos. Fazendeiro nos finais de semana.</p>
+                        <h5 class="card-title">Assistente contabil</h5>
+                        <p class="card-text">Pregadora na igreja</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
-                    <img src="../img/genizon.jpg" class="card-img-top" alt="gerente contabil">
+                    <img src="../img/marcella.jpg" class="card-img-top" alt="gerente contabil">
                     <div class="card-body">
-                        <h5 class="card-title">Gerente Contabil</h5>
-                        <p class="card-text">Casado e pai de dois filhos. Fazendeiro nos finais de semana.</p>
+                        <h5 class="card-title">Assistente fiscal</h5>
+                        <p class="card-text">Recém casada</p>
                     </div>
                 </div>
             </div>

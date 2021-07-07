@@ -1,4 +1,5 @@
 <?php
+
 if(!isset($session->username) && empty($_GET['id'])) {
 	header("Location: index.php?p=home");
 }
